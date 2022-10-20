@@ -8,7 +8,7 @@
 .banner {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(40, 39, 39, 0.75), rgba(72, 41, 21, 0.75)), url(../img/LEDpanellights.jpg);
+  background-image: linear-gradient(rgba(40, 39, 39, 0.75), rgba(72, 41, 21, 0.75)), url(../img/LEDpanellights.webp);
   background-size: cover;
   background-position: center;
 
