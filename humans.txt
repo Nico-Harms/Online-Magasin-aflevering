@@ -1,0 +1,24 @@
+# humanstxt.org
+
+# TEAM
+
+Nicolai Harms 
+
+____________
+
+# Thanks 
+Thanks to unsplash.com for providing pictures for uncopyrigted usage 
+Thanks to Magnus Bruun for using living room for content creation
+
+____________
+# Technology 
+
+## Software 
+
+Visual Studio Code 
+FilZilla 
+GitHub
+
+## Hosting 
+
+Simply.com

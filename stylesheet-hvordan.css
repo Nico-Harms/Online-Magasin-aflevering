@@ -1,0 +1,130 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(40, 39, 39, 0.75), rgba(72, 41, 21, 0.75)), url(img/LEDpanellights.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner h1 {
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #8b09b3;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.artikel {
+  background-color: white;
+  color: black;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+.text {
+  line-height: 1.7;
+}
+
+.pictures {
+  width: 49%;
+  float: right;
+  border-left: 3px solid rgb(214, 106, 6);
+  background-color: white;
+  height: 100%;
+  padding: 5px;
+}
+
+
+.pictures img {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 50px;
+
+}
+
+.videosection {
+  float: left;
+  width: 49%;
+}
+
+.img-container {
+  max-width: 100%;
+
+}
+.image-container h5 {
+  position: absolute;
+  color: grey;
+}
+.apple {
+  
+  right: 70px;
+  bottom: 240px;
+  
+}
+.google {
+  right: 70px;
+  bottom: -120px;
+}
+.alexa {
+  right: 90px;
+  bottom: -450px;
+}
